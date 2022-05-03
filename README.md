@@ -11,6 +11,7 @@ position: absolute 사용 시 가로 or 세로 높이 설정 후 margin: auto �
 
 사용 시 display값이 block으로 변환됨
 position: relative를 fixed로 부모요소 설정 가능
+position 값이 absolute, fixed, relative 중 하나라도 부모요소로 작용한다면 그 기준에 맞게 위치가 설정됨
 
 >img 태그 - 크기가 안맞춰질 때
 
