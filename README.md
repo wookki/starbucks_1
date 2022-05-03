@@ -24,3 +24,7 @@ block 적용해야함
 
 >인라인 태그
 width, height 설정 불가능
+
+>display:flex
+
+flex 시 inline element인 a태그는  block element로 변경됨 
