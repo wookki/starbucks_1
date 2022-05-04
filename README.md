@@ -23,6 +23,7 @@ a 태그 사용 시 inline 요소이므로 padding 혹은 margin을 사용하기
 block 적용해야함
 
 >인라인 태그
+
 width, height 설정 불가능
 
 >display:flex

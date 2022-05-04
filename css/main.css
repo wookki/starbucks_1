@@ -367,3 +367,85 @@ header .badges .badge {
 .notice .notice-line .inner .inner__right .toggle-promotion .material-icons {
   font-size: 30px;
 }
+.notice .promotion {
+  height: 693px;
+  background-color: #f6f5ef;
+  position: relative;
+  transition: height .4s;
+  overflow: hidden;
+}
+.notice .promotion.hide {
+  height: 0;
+}
+.notice .promotion .swiper {
+  width: calc(819px * 3 + 20px);
+  height: 553px;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  margin-left: calc((819px * 3 + 20px) / -2);
+}
+.promotion .swiper .swiper-slide {
+  opacity: .2;
+  transition: opacity 1s;
+  position: relative;
+}
+.promotion .swiper .swiper-slide .btn {
+  position: absolute;
+  bottom: 40px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.promotion .swiper .swiper-slide-active {
+  opacity: 1;
+}
+.promotion .swiper-pagination {
+  bottom: 40px;
+  left: 0;
+  right: 0;
+}
+.promotion .swiper-pagination-bullet {
+  background-color: transparent;
+  background-image: url(../images/promotion_slide_pager.png);
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+  outline: none;
+}
+.promotion .swiper-pagination-bullet:last-child {
+  margin-right: 0;
+}
+.promotion .swiper-pagination-bullet-active {
+  background-image: url(../images/promotion_slide_pager_on.png);
+}
+.promotion .swiper-prev,
+.promotion .swiper-next {
+  width: 42px;
+  height: 42px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  position: absolute;
+  top: 300px;
+  z-index: 1;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .4s;
+}
+.promotion .swiper-prev:hover,
+.promotion .swiper-next:hover {
+  background-color: #333;
+  color: #fff;
+}
+.promotion .swiper-prev {
+  left: 50%;
+  margin-left: -480px;
+}
+.promotion .swiper-next {
+  right: 50%;
+  margin-right: -480px;
+}
